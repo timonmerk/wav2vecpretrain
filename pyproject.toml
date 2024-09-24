@@ -1,0 +1,15 @@
+[project]
+name = "wav2vec-pretrain"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9,<3.10"
+dependencies = [
+    "accelerate>=0.34.2",
+    "datasets>=3.0.0",
+    "ipython>=8.18.1",
+    "librosa>=0.10.2.post1",
+    "torch>=2.4.1",
+    "torchaudio>=2.4.1",
+    "transformers>=4.44.2",
+]
